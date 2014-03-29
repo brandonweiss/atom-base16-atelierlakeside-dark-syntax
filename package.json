@@ -1,7 +1,7 @@
 {
   "name": "base16-atelierlakeside-dark-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A port of the Base16 Atelier Lakside dark syntax theme from TextMate to Atom",
   "repository": "https://github.com/brandonweiss/atom-base16-atelierlakeside-dark-syntax",
   "license": "MIT",
