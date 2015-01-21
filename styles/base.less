@@ -40,15 +40,15 @@ atom-text-editor .search-results .marker.current-result .region, :host .search-r
   border: @syntax-result-marker-color-selected;
 }
 
-atom-text-editor.is-focused .cursor, :host.is-focused .cursor {
+atom-text-editor.is-focused .cursor, :host(.is-focused) .cursor {
   border-color: @syntax-cursor-color;
 }
 
-atom-text-editor.is-focused .selection .region, :host.is-focused .selection .region {
+atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .region {
   background-color: @syntax-selection-color;
 }
 
-atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host.is-focused .line-number.cursor-line-no-selection, :host.is-focused .line.cursor-line {
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
   background-color: rgba(90, 123, 140, 0.33);
 }
 
